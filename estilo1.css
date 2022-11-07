@@ -1,0 +1,271 @@
+/* Todo */
+*{
+    margin: 0; /* ponemos un margen de 0 en toda la pagina*/
+    padding: 0;/* ponemos un padding de 0 en toda la pagina*/
+    font-size: 20px;/*ponemos un tamaño de letra de 20 px en todo el html*/
+}
+
+li ul{
+    display: none;/*le quitamos los puntos*/
+}
+#container{
+    display: flex;/*Ponemos los datos del contendeor uno al lado del otro*/
+    font-size: 1.5em;/*Cambiamos el tamaño de la letra*/
+    flex-grow: 1;/**/
+}
+/* Menu */
+#simboloMenu{
+    padding: 15px;/*Ponemos un padding de 15px*/
+    color: #f56a6a;/*Cambiamos el color del rombo*/
+}
+
+/* Buscador */
+#search{
+    background-color: #f5f6f7;/*ponemos un color de fondo*/
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);/**/
+    background-color: #f5f6f7;/*ponemos un color de fondo*/
+    padding: 2em;/*Ponemos un padding de 2 emes*/
+    width: 94%;/*hacemos que tenga un ancho del 94%*/
+    border-bottom: 0;/*hacemos que no tenga border abajo*/
+    margin: -2em;/*hacemos que el margen sea -2*/
+
+}
+#query{
+    background: #ffffff;/*ponemos un color de fondo*/
+    border-radius: 0.375em;/*ponemos un radio al border*/
+    width: 80%;/*hacemos que tenga un ancho del 80%*/
+    border: solid 1px rgba(210, 215, 217, 0.75);/**/
+    color: inherit;
+    display: block;/*Ponemos los datos uno abajo del otro*/
+    outline: 0;
+    padding: 0 1em;/*hacemos un madding de 1 eme*/
+    text-decoration: none;/*le quitamos los puntos*/
+
+    height: 2.75em;/*le ponemos una altura de 2.75 emes*/
+}
+#Menu li{
+    font-size: 0.9em;/*tamaño de la letra de 0.9em*/
+    list-style: none;/*le quitamos los puntos*/
+    letter-spacing: 0.07em;/*dejamos un espacio entre letras de 0.07 em*/
+    margin: 15px;/*Le ponemos un margen de 15px*/
+    text-align: left;/*alineamos el texto a la izquierda*/
+    padding-bottom: 10px;/*le añadimos un padding abajo*/
+    text-decoration: none;/*le quitamos los puntos*/
+    border-bottom: solid 1px rgba(210, 215, 217, 0.75);/*le ponemos un color al border*/
+   
+}
+
+/* Iconos social media */
+.iconos{
+    
+    display: flex;
+    list-style: none;/*le quitamos los puntos*/
+    text-decoration: none;/*le quitamos los puntos*/
+    color: #3d4449;/*Cambiamos el color del rombo*/
+    margin-left: 1130px;
+
+}
+/* Linea de bajo de los iconos */
+#rojo{
+    margin: 28px; /*le ponemos un margen de 28 px*/
+    padding-bottom: 20px;/*le ponemos un padding de 20px*/
+    border-bottom: solid#f56a6a;/*ponemos un color al border*/
+    display: flex;/*Lo ponemos uno al lado de otro*/
+   
+}
+/* Items */
+#intermedio{
+    display: flex;/*le ponemos uno al lado del otro*/
+    padding: 20px;/*le ponemos un padding de 20 px*/
+}
+#items{
+    
+    background-color: #f5f6f7;/*ponemos un color de fondo*/
+	width: 20rem; /*ponemos una anchura de 20 rem*/
+    padding: 20px;/*le ponemos un padding de 20px*/
+    color: gray;/*Cambiamos el color del rombo*/
+    align-items: center;/*alineamos los items en el centro*/
+    order: 1;
+    flex: 1; /*le ponemos un flex de 1*/
+    justify-content: center;/*justificamos los items en el centro*/
+  
+}
+#items li:hover>ul{
+    display: block;
+    text-decoration: none;/*le quitamos los puntos*/
+    list-style: none;/*le quitamos los puntos*/
+    
+
+}
+#items h2{
+    color: #3d4449;/*Cambiamos el color del rombo*/
+    font-family: 'Playfair Display', serif;
+    font-size: 1.38889rem;/*le cambiamos el tamaño*/
+    margin: 15px;/*le ponemos un margen*/
+    border-bottom: solid 3px #f56a6a;/*ponemos un color al border*/
+    display: inline-block;/*Lo ponemos uno debajo de otro*/
+}
+#items p{
+    display: block;/*ponemos uno debajo del otro*/
+    margin-block-start: 1em;/*ponemos un margen*/
+    margin: 0 0 2em 0;/*ponemos un margen*/
+    margin-block-end: 1em;/*ponemos un margen*/
+    margin-inline-start: 0px;/*ponemos un margen*/
+    margin-inline-end: 0px;/*ponemos un margen*/
+    
+}
+/* Boton */
+#items button{
+    text-decoration:none;/*le quitamos los puntos*/
+    font-weight: 600;/*Cambiamos el tamaño de la anchura*/
+    font-size: 20px;/*cambiamos el tamaño de la letra*/
+    color:#f56a6a;/*Cambiamos el color del rombo*/
+    padding-top:15px;/*le ponemos un padding arriba*/
+    padding-bottom:15px;/*le ponemos un padding abajo*/
+    padding-left:40px;/*le ponemos un padding a la izquierda*/
+    padding-right:40px;/*le ponemos un padding a la derecha*/
+    background-color: #f5f6f7;/*ponemos un color de fondo*/
+    border-color: #f56a6a;/*ponemos un color al border*/
+    border-width: 3px;/*le ponemos una anchura al border*/
+    border-style: solid;/*ponemos un estilo al border*/
+}
+#erat-lacinia h2{
+    color: #3d4449;/*Cambiamos el color del rombo*/
+    font-family: "Roboto Slab", serif;/*Le ponemos una fuente al texto*/
+    font-size: 1.38889rem;/*Le ponemos un tamaño*/
+    border-bottom: solid 3px #f56a6a;/*ponemos un color al border*/
+    display: inline-block;/*Lo ponemos uno debajo de otro*/
+    font-size: 1.75em;/*cambiamos el tamaño de la letra*/
+    margin: 40px;/*poemos un margen de 40px*/
+    padding-bottom: 10px;/*hacemos un padding abajo de 10px*/
+    
+    
+}
+
+/* iconos */
+#icono1 i {
+
+    transform: rotate(-45deg);/*Rotamos -45º el icono dentro del rombo*/
+       
+}
+
+/* Rombos */
+#rombos{
+    display: flex;/**/
+    padding:20px;/*hacemos un padding de 20px*/
+   
+}
+
+/* Rombo1 */
+#rombo1{
+    float: left;/*Lo movemos a la izquierda*/
+    padding: 35px;/*Hacemos un padding de 35px*/
+    border: solid gray 1px;/*ponemos un color al border*/
+    color: #f56a6a;/*Cambiamos el color del rombo*/
+    margin-right: 35px;/*ponemos un margen derecho de 35px*/
+    transform: rotate(45deg);/*Rotamos 45º el rombo*/
+
+}
+#texto-rombo1{
+    margin: 2%;/*Le ponemos un margen general*/
+    
+}
+#texto-rombo1 h3{
+    color: #3d4449;/*Cambiamos el color de letra*/
+    font-family: "Roboto Slab", serif;/*Cambiamos la fuente de letra*/
+    padding: 10px;/*Hacemos un padding de 10px*/
+}
+/* Rombo2 */
+#rombo2{
+    float: left;/*Lo movemos a la izquierda*/
+    padding: 35px;/*Hacemos un padding de 35px*/
+    border: solid gray 1px;/*ponemos un color al border*/
+    color: #f56a6a;/*Cambiamos el color del rombo*/
+    margin-top: 25px;/*Le ponemos un margen arriba*/
+    margin-right: 35px;/*Le ponemos un margen a la derecha*/
+    transform: rotate(45deg);/*Rotamos 45º el rombo*/
+
+}
+#texto-rombo2{
+    margin: 2%;/*Le ponemos un margen general*/
+}
+#texto-rombo2 h3{
+    color: #3d4449;/*Cambiamos el color de letra*/
+    font-family: "Roboto Slab", serif;/*Cambiamos la fuente de letra*/
+    padding: 10px;/*Hacemos un padding de 10px*/
+}
+/* Rombo3 */
+#rombo3{
+    float: left;/*Lo movemos a la izquierda*/
+    padding: 35px;/*Hacemos un padding de 35px*/
+    border: solid gray 1px;/*ponemos un color al border*/
+    color: #f56a6a;/*Cambiamos el color del rombo*/
+    margin-right: 35px;/*Le ponemos un margen a la derecha*/
+    transform: rotate(45deg);/*Rotamos 45º el rombo*/
+
+}
+#texto-rombo3{
+    margin: 2%;/*Le ponemos un margen general*/
+}
+#texto-rombo3 h3{
+    color: #3d4449;/*Cambiamos el color de letra*/
+    font-family: "Roboto Slab", serif;/*Cambiamos la fuente de letra*/
+    padding: 5px;/*Hacemos un padding de 5px*/
+}
+/* Rombo4 */
+#rombo4{
+    float: left;/*Lo movemos a la izquierda*/
+    padding: 35px;/*Hacemos un padding de 35px*/
+    border: solid gray 1px;/*ponemos un color al border*/
+    color: #f56a6a;/*Cambiamos el color del rombo*/
+    margin-top: 25px;/*Le ponemos un margen a la izquierda*/
+    margin-right: 35px;/*Le ponemos un margen a la derecha*/
+    transform: rotate(45deg);/*Rotamos 45º el rombo*/
+
+}
+#texto-rombo4{
+    margin: 2%;/*Le ponemos un margen general*/
+}
+#texto-rombo4 h3{
+    color: #3d4449;/*Cambiamos el color de letra*/
+    font-family: "Roboto Slab", serif;/*Cambiamos la fuente de letra*/
+    padding: 10px;/*le ponemos un padding de 10 pixeles*/
+}
+/* Rotacion rombos */
+#rombo1 i {
+    
+    transform: rotate(-45deg);/*Rotamos el icono dentro del rombo*/
+    
+}
+#rombo2 i {
+
+    transform: rotate(-45deg);/*Rotamos el icono dentro del rombo*/
+    
+}
+#rombo3 i {
+
+    transform: rotate(-45deg);/*Rotamos el icono dentro del rombo*/
+    
+}
+#rombo4 i {
+
+    transform: rotate(-45deg);/*Rotamos el icono dentro del rombo*/
+       
+}
+/* Botones de las imagenes */
+#imagenes{
+    display: flex;/*Ponemos las imagenes una al lado de la otra*/
+}
+
+#imagenes button{
+    font-size: 1.25em;/*Le ponemos un tamaño*/
+    margin-bottom: 3px;/*Le `ponemos un margen*/
+    background-color: white;/*ponemos un color de fondo*/
+    border: #f20202 1px solid;/*ponemos un color al border*/
+    background-color: #f56a6a;/*ponemos un color de fondo*/
+    opacity: 80%;/*Le ponemos opacidad*/
+}
+
+#container_abajo{
+    margin: 40px;/*Le `ponemos un margen*/
+}
